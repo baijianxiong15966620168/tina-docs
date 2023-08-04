@@ -13,13 +13,6 @@
       "position": "left"
     },
     {
-      "label": "MDX Page",
-      "link": "page",
-      "docLink": "src/pages/Test-MDX-Page.mdx",
-      "pageLink": "src/pages/Test-MDX-Page.mdx",
-      "position": "left"
-    },
-    {
       "label": "Portkey-Tina-docs GitHub",
       "link": "external",
       "externalLink": "https://github.com/baijianxiong15966620168/tina-docs",
