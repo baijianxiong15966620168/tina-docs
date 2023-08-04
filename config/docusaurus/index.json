@@ -2,7 +2,7 @@
   "label": "Settings",
   "navbar": [
     {
-      "label": "Docs",
+      "label": "Guides",
       "link": "doc",
       "docLink": "docs/intro.mdx",
       "position": "left"
@@ -36,7 +36,7 @@
     "alt": "Tina",
     "src": "/img/tina-icon.svg"
   },
-  "title": "Tinasaurus",
+  "title": "Portkey Docs",
   "footer": {
     "style": "dark",
     "links": [
