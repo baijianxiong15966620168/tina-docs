@@ -2,7 +2,7 @@
   "label": "Settings",
   "navbar": [
     {
-      "label": "Docs",
+      "label": "Guides",
       "link": "doc",
       "docLink": "docs/intro.mdx",
       "position": "left"
@@ -20,9 +20,9 @@
       "position": "left"
     },
     {
-      "label": "Docusaurus GitHub",
+      "label": "Portkey-Tina-docs GitHub",
       "link": "external",
-      "externalLink": "https://github.com/facebook/docusaurus",
+      "externalLink": "https://github.com/baijianxiong15966620168/tina-docs",
       "position": "right"
     },
     {
@@ -36,7 +36,7 @@
     "alt": "Tina",
     "src": "/img/tina-icon.svg"
   },
-  "title": "Tinasaurus",
+  "title": "Portkey Docs",
   "footer": {
     "style": "dark",
     "links": [
