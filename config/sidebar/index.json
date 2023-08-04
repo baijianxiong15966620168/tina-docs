@@ -3,7 +3,8 @@
   "items": [
     {
       "title": "Introduction",
-      "link": "generated",
+      "link": "doc",
+      "docLink": "docs/Introduction.mdx",
       "_template": "category"
     },
     {
