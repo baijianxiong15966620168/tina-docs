@@ -3,7 +3,7 @@
   "items": [
     {
       "title": "Introduction",
-      "link": "doc",
+      "link": "generated",
       "_template": "category"
     },
     {
