@@ -4,7 +4,7 @@
   "description": "Portkey 使用说明文档",
   "blocks": [
     {
-      "document": "docs/intro.mdx",
+      "document": "docs/Introduction.mdx",
       "documentLabel": "Portkey Docs - 5min ⏱️",
       "_template": "hero"
     },
