@@ -7,70 +7,44 @@
       "_template": "doc"
     },
     {
-      "document": "docs/intro.mdx",
-      "_template": "doc"
-    },
-    {
-      "title": "Tutorial - Basics",
+      "title": "OverviewOfPortkey",
       "link": "generated",
       "items": [
         {
-          "document": "docs/tutorial-basics/create-a-page.mdx",
+          "document": "docs/OverviewPortkey/start-here.mdx",
+          "label": "start-here",
           "_template": "doc"
         },
         {
-          "document": "docs/tutorial-basics/create-a-document.mdx",
+          "document": "docs/OverviewPortkey/what-is-portkey.mdx",
+          "label": "what-is-portkey",
           "_template": "doc"
         },
         {
-          "document": "docs/tutorial-basics/create-a-blog-post.mdx",
+          "document": "docs/agency.mdx",
+          "label": "agency",
           "_template": "doc"
         },
         {
-          "document": "docs/tutorial-basics/deploy-your-site.mdx",
-          "_template": "doc"
-        },
-        {
-          "document": "docs/tutorial-basics/congratulations.mdx",
+          "document": "docs/OverviewPortkey/Security.mdx",
+          "label": "Security",
           "_template": "doc"
         }
       ],
       "_template": "category"
     },
     {
-      "title": "Tutorial - Extras",
-      "link": "generated",
-      "items": [
-        {
-          "document": "docs/tutorial-extras/manage-docs-versions.mdx",
-          "_template": "doc"
-        },
-        {
-          "document": "docs/tutorial-extras/translate-your-site.mdx",
-          "_template": "doc"
-        }
-      ],
-      "_template": "category"
-    },
-    {
-      "title": "Nested Link",
+      "title": "SDKs",
       "link": "none",
       "items": [
         {
-          "title": "Level 2",
+          "title": "CoreSDK",
           "link": "none",
           "items": [
             {
-              "title": "Level 3",
-              "link": "none",
-              "items": [
-                {
-                  "document": "docs/test-page.mdx",
-                  "label": "",
-                  "_template": "doc"
-                }
-              ],
-              "_template": "category"
+              "document": "docs/CoreSDK.mdx",
+              "label": "Guides",
+              "_template": "doc"
             }
           ],
           "_template": "category"
@@ -79,9 +53,26 @@
       "_template": "category"
     },
     {
-      "title": "Tina.io",
-      "href": "https://tina.io/",
-      "_template": "link"
+      "title": "API Reference",
+      "link": "generated",
+      "items": [
+        {
+          "document": "docs/GraphQL.mdx",
+          "label": "GraphQL",
+          "_template": "doc"
+        },
+        {
+          "document": "docs/APIReference/RESTful.mdx",
+          "label": "RESTful",
+          "_template": "doc"
+        }
+      ],
+      "_template": "category"
+    },
+    {
+      "document": "docs/environmentalConfiguration.mdx",
+      "label": "Environmental Configuration",
+      "_template": "doc"
     }
   ]
 }
