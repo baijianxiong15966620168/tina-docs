@@ -2,12 +2,6 @@
   "label": "Docs Sidebar",
   "items": [
     {
-      "title": "Introduction",
-      "link": "doc",
-      "docLink": "docs/Introduction.mdx",
-      "_template": "category"
-    },
-    {
       "document": "docs/intro.mdx",
       "_template": "doc"
     },
