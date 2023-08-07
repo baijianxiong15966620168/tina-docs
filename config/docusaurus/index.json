@@ -26,7 +26,7 @@
     }
   ],
   "logo": {
-    "alt": "Portkey",
+    "alt": "Portkey Docs",
     "src": "/img/favicon.ico"
   },
   "title": "Portkey Docs",
@@ -78,7 +78,7 @@
         ]
       }
     ],
-    "copyright": "Portkey Docs, Inc. Built with Docusaurus."
+    "copyright": "My Project, Inc. Built with Docusaurus."
   },
   "url": "https://tinasaurus.vercel.app/"
 }
