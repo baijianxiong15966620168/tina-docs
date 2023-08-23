@@ -22,7 +22,15 @@ Let's discover **portkey in less than 5 minutes**.
 ## 测试tab组件和高亮代码块
 
 <Tabs>
-  <TabItem value="js" label="JSX" />
+  <TabItem
+    value="jsx"
+    label="JSX"
+    children="```jsx showLineNumbers
+    function HelloCodeTitle(props) {
+      return <h1>Hello, {props.name}</h1>;
+    }
+    ```"
+  />
 
   <TabItem value="py" label="Python" />
 
