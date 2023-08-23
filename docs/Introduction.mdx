@@ -22,19 +22,34 @@ Let's discover **portkey in less than 5 minutes**.
 ## 测试tab组件和高亮代码块
 
 <Tabs>
-  <TabItem
-    value="jsx"
-    label="JSX"
-    children="```jsx showLineNumbers
-    function HelloCodeTitle(props) {
-      return <h1>Hello, {props.name}</h1>;
-    }
-    ```"
-  />
+<TabItem value="js" label="JSX">
 
-  <TabItem value="py" label="Python" />
+```jsx showLineNumbers
+function HelloCodeTitle(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+```
 
-  <TabItem value="java" label="Java" />
+</TabItem>
+<TabItem value="py" label="Python">
+
+```py showLineNumbers
+def hello_world():
+  print("Hello, world!")
+```
+
+</TabItem> 
+<TabItem value="java" label="Java">
+
+```java showLineNumbers
+class HelloWorld {
+  public static void main(String args[]) {
+    System.out.println("Hello, World");
+  }
+}
+```
+
+</TabItem>
 </Tabs>
 
 ## 测试链接跳转
