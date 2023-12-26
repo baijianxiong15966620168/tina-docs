@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "@theme/Layout";
 import { Blocks } from "../components/Blocks";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import '@docsearch/css';
 
 const pageData = require("../../config/homepage/index.json");
 

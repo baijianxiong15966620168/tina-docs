@@ -100,6 +100,7 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
 
   presets: [
     [
@@ -121,6 +122,7 @@ const config = {
     ],
   ],
 
+  // themes: ["@docusaurus/theme-search-algolia"],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -138,6 +140,13 @@ const config = {
           return formatNavbarItem(item);
         }),
       },
+      // algolia: {
+      //   // The application ID provided by Algolia
+      //   appId: "CHWOOR5U6P",
+      //   // Public API key: it is safe to commit it
+      //   apiKey: "tina-portkey-test",
+      //   indexName: "dd8c4568e247250cd5b9ed85e7dd061c",
+      // },
       footer: {
         style: docusaurusData.footer?.style || "dark",
         links: docusaurusData.footer?.links.map((item) => {
