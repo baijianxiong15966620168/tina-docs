@@ -1,6 +1,7 @@
 import React from "react";
 import { defineConfig, TextField } from "tinacms";
 import { ReferenceField } from "tinacms";
+import { ArticlesBlockTemplate } from "../src/components/ArticleContainer/template";
 import { FeaturesBlockTemplate } from "../src/components/Features/template";
 import { HeroBlockTemplate } from "../src/components/Hero/template";
 import { MDXTemplates } from "../src/theme/template";
@@ -809,11 +810,11 @@ const PagesCollection = {
       label: "Description",
     },
     {
-      type: "rich-text",
-      name: "body",
-      label: "Body",
-      isBody: true,
-      templates: [...MDXTemplates],
+      type: "object",
+      list: true,
+      name: "articles",
+      label: "Articles",
+      templates: [ArticlesBlockTemplate],
     },
   ],
 };

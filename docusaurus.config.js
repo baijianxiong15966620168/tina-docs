@@ -100,7 +100,6 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
 
   presets: [
     [
@@ -123,6 +122,7 @@ const config = {
   ],
 
   // themes: ["@docusaurus/theme-search-algolia"],
+  plugins: [require.resolve('docusaurus-lunr-search')],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
