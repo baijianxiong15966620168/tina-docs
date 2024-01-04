@@ -1,12 +1,12 @@
 import React from "react";
 
 export const ArticlesBlockTemplate = {
-  name: "articles",
-  label: "Articles",
+  name: "ArticlesContainer",
+  label: "ArticlesContainer",
   fields: [
     {
       name: "items",
-      label: "Articles",
+      label: "ArticlesContainer",
       type: "object",
       list: true,
       fields: [

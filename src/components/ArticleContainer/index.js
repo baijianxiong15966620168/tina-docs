@@ -5,10 +5,6 @@ const ArticleItem = ({
   title,
   description,
   link,
-}: {
-  title: string;
-  description: string;
-  link: string;
 }) => {
   return (
     <div className={styles["article-item-container"]}>
