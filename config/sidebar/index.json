@@ -7,7 +7,7 @@
       "_template": "doc"
     },
     {
-      "title": "OverviewOfPortkey",
+      "title": "OverviewOf",
       "link": "generated",
       "items": [
         {
@@ -17,7 +17,7 @@
         },
         {
           "document": "docs/OverviewPortkey/what-is-portkey.mdx",
-          "label": "what-is-portkey",
+          "label": "what-is",
           "_template": "doc"
         },
         {
