@@ -1,7 +1,7 @@
 {
   "label": "Homepage",
-  "title": "Portkey Docs",
-  "description": "Portkey 使用说明文档",
+  "title": "白建雄技术文档",
+  "description": "个人技术积累以及读书分享",
   "blocks": [
     {
       "document": "docs/Introduction.mdx",
