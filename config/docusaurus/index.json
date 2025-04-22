@@ -11,25 +11,13 @@
       "label": "Blog",
       "link": "blog",
       "position": "left"
-    },
-    {
-      "label": "Portkey-Tina-docs GitHub",
-      "link": "external",
-      "externalLink": "https://github.com/baijianxiong15966620168/tina-docs",
-      "position": "right"
-    },
-    {
-      "label": "Tina",
-      "link": "external",
-      "externalLink": "https://tina.io/",
-      "position": "right"
     }
   ],
   "logo": {
     "alt": "Peter Docs",
     "src": "/img/0ffb4bd1d3ca415989365bd27473f4d4.jpeg"
   },
-  "title": "Portkey Docs",
+  "title": "Peter Docs",
   "footer": {
     "style": "dark",
     "links": [
